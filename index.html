@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>AngularJS</title>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="css/application.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+    </head>
+   <body  ng-app="AlphaApp">
+        <div class="container-fluid">
+            <br><br><br>
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-5" id="loginForm">
+                    <ng-view></ng-view>
+                    <hr>
+                    <div>
+                        <center>Get the app.</center>
+                        <br>
+                        <img src="images/iosAppButton.png" class="getApp">
+                        <img src="images/playButton.png" height="38" class="getApp">
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+       <div class="container" style="font-size: 12px;">
+        <br><br><br><hr>
+           <span style="float: right">&copy; ALPHA QA</span>
+       </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+       <script src="scripts/app.js"></script>
+        
+    </body>
+</html>
