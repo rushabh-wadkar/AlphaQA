@@ -35,11 +35,25 @@
         </div>
        <div class="container" style="font-size: 12px;">
         <br><br><br><hr>
+           <span style="float: left"><div id="screen-details"></div></span>
            <span style="float: right">&copy; ALPHA QA</span>
        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
        <script src="scripts/app.js"></script>
-        
+        <script>
+            window.onload = function(){
+                getScreenWidthHeight();
+            };
+            function getScreenWidthHeight(){
+                document.getElementById("screen-details").innerHTML = getScreenWidth() + " x " + getScreenHeight();
+            }
+            function getScreenWidth(){
+                return screen.width;
+            }
+            function getScreenHeight(){
+                return screen.height;
+            }
+       </script>
     </body>
 </html>
