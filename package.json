@@ -1,0 +1,19 @@
+{
+  "name": "alphaqa",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushabh-wadkar/AlphaQA.git"
+  },
+  "author": "Rushabh Wadkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushabh-wadkar/AlphaQA/issues"
+  },
+  "homepage": "https://github.com/rushabh-wadkar/AlphaQA#readme"
+}
